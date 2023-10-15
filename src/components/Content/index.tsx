@@ -10,12 +10,11 @@ import {
   monflanquinCover,
   nyc2022Cover,
   nycCover,
-  paris2018Cover,
   sfCover,
   summer2021Cover,
-} from "../../images";
-import { StyledDiv } from "../common/StyledDiv";
-import { Journal } from "./Journal";
+} from '../../images';
+import { StyledDiv } from '../common/StyledDiv';
+import { Journal } from './Journal';
 
 export const Content = () => (
   <StyledDiv
@@ -96,14 +95,14 @@ export const Content = () => (
         link="/journal/san-francisco"
       />
     </StyledDiv>
-    <StyledDiv width="586px">
+    {/* <StyledDiv width="586px">
       <Journal
         title="Paris, France"
         date="August 2018"
         cover={paris2018Cover}
         link="/journal/paris-2018"
       />
-    </StyledDiv>
+    </StyledDiv> */}
     <StyledDiv width="586px">
       <Journal
         title="Dijon, France"
