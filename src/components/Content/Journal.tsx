@@ -1,5 +1,5 @@
-import { StyledDiv } from '../common/StyledDiv';
-import { StyledText } from '../common/StyledText';
+import { StyledDiv } from "../common/StyledDiv";
+import { StyledText } from "../common/StyledText";
 
 type JournalProps = {
   title: string;

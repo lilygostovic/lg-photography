@@ -1,13 +1,24 @@
-import React from "react";
+import React from 'react';
 
-import { Content, Header } from "./components";
+import {
+  BrowserRouter,
+  Route,
+  Routes,
+} from 'react-router-dom';
+
+import {
+  HomePage,
+  JournalPage,
+} from './components';
 
 function App() {
   return (
-    <div>
-      <Header />
-      <Content />
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/journal/:id" element={<JournalPage />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 

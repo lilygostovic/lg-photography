@@ -1,0 +1,48 @@
+[
+  { "id": "alberta-2023", "title": "Alberta, Canada", "date": "August 2023" },
+  {
+    "id": "christmas-2022",
+    "title": "Home for Christmas 2",
+    "date": "January 2022"
+  },
+  { "id": "iceland-2021", "title": "Iceland", "date": "November 2021" },
+  {
+    "id": "new-york-city-2022",
+    "title": "New York City",
+    "date": "February 2022"
+  },
+  { "id": "summer-2021", "title": "Summer 2021", "date": "June 2021" },
+  {
+    "id": "christmas-2021",
+    "title": "Home for Christmas",
+    "date": "January 2021"
+  },
+  {
+    "id": "alberta-2020",
+    "title": "Kickinghorse Ski Trip",
+    "date": "March 2020"
+  },
+  {
+    "id": "new-york-city",
+    "title": "New York City, New York",
+    "date": "August 2019"
+  },
+  {
+    "id": "san-francisco",
+    "title": "San Francisco, California",
+    "date": "December 2018"
+  },
+  { "id": "paris-2018", "title": "Paris, France", "date": "August 2018" },
+  { "id": "dijon", "title": "Dijon, France", "date": "August 2018" },
+  {
+    "id": "loire-valley",
+    "title": "Loire Valley, France",
+    "date": "August 2018"
+  },
+  {
+    "id": "monflanquin",
+    "title": "Monflanquin, France",
+    "date": "August 2018"
+  },
+  { "id": "bordeaux", "title": "Bordeaux, France", "date": "August 2018" }
+]

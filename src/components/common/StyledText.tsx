@@ -12,7 +12,13 @@ import {
   type TypographyProps,
 } from 'styled-system';
 
-export type TextVariant = "title" | "subtitle" | "header" | "subHeader";
+export type TextVariant =
+  | "title"
+  | "subtitle"
+  | "header"
+  | "subHeader"
+  | "journalTitle"
+  | "journalSubtitle";
 
 type StyledTextProps = {
   variant: TextVariant;
@@ -53,6 +59,23 @@ export const StyledText = styled.text<StyledTextProps>`
           font-size: 12px;
           line-height: 32px;
           color: darkgray;
+        `;
+      case "journalTitle":
+        return css`
+          font-family: "AppleGothic";
+          font-size: 40px;
+          margin-top: 300px;
+          font-weight: bolder;
+          color: black;
+        `;
+      case "journalSubtitle":
+        return css`
+          font-family: "AppleGothic";
+          font-size: 12px;
+          margin-top: 30px;
+          margin-bottom: 250px;
+          font-weight: bold;
+          color: black;
         `;
     }
   }}

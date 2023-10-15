@@ -29,7 +29,7 @@ export const Content = () => (
         title="Alberta, Canada"
         date="August 2023"
         cover={alberta2023Cover}
-        link="alberta-2023"
+        link="/journal/alberta-2023"
       />
     </StyledDiv>
     <StyledDiv width="586px">
@@ -37,7 +37,7 @@ export const Content = () => (
         title="Home for Christmas 2"
         date="January 2022"
         cover={christmas2022Cover}
-        link="christmas-2022"
+        link="/journal/christmas-2022"
       />
     </StyledDiv>
     <StyledDiv width="586px">
@@ -45,7 +45,7 @@ export const Content = () => (
         title="Iceland"
         date="November 2021"
         cover={iceland2021Cover}
-        link="iceland-2021"
+        link="/journal/iceland-2021"
       />
     </StyledDiv>
     <StyledDiv width="586px">
@@ -53,7 +53,7 @@ export const Content = () => (
         title="New York City"
         date="February 2022"
         cover={nyc2022Cover}
-        link="new-york-city-2022"
+        link="/journal/new-york-city-2022"
       />
     </StyledDiv>
     <StyledDiv width="586px">
@@ -61,7 +61,7 @@ export const Content = () => (
         title="Summer 2021"
         date="June 2021"
         cover={summer2021Cover}
-        link="summer-2021"
+        link="/journal/summer-2021"
       />
     </StyledDiv>
     <StyledDiv width="586px">
@@ -69,7 +69,7 @@ export const Content = () => (
         title="Home for Christmas"
         date="January 2021"
         cover={christmas2021Cover}
-        link="christmas-2021"
+        link="/journal/christmas-2021"
       />
     </StyledDiv>
     <StyledDiv width="586px">
@@ -77,7 +77,7 @@ export const Content = () => (
         title="Kickinghorse Ski Trip"
         date="March 2020"
         cover={alberta2020Cover}
-        link="albera-2020"
+        link="/journal/alberta-2020"
       />
     </StyledDiv>
     <StyledDiv width="586px">
@@ -85,7 +85,7 @@ export const Content = () => (
         title="New York City, New York"
         date="August 2019"
         cover={nycCover}
-        link="new-york-city"
+        link="/journal/new-york-city"
       />
     </StyledDiv>
     <StyledDiv width="586px">
@@ -93,7 +93,7 @@ export const Content = () => (
         title="San Francisco, California"
         date="December 2018"
         cover={sfCover}
-        link="san-francisco"
+        link="/journal/san-francisco"
       />
     </StyledDiv>
     <StyledDiv width="586px">
@@ -101,7 +101,7 @@ export const Content = () => (
         title="Paris, France"
         date="August 2018"
         cover={paris2018Cover}
-        link="paris-2018"
+        link="/journal/paris-2018"
       />
     </StyledDiv>
     <StyledDiv width="586px">
@@ -109,7 +109,7 @@ export const Content = () => (
         title="Dijon, France"
         date="August 2018"
         cover={dijonCover}
-        link="dijon"
+        link="/journal/dijon"
       />
     </StyledDiv>
     <StyledDiv width="586px">
@@ -117,7 +117,7 @@ export const Content = () => (
         title="Loire Valley, France"
         date="August 2018"
         cover={loireValleyCover}
-        link="loire-valley"
+        link="/journal/loire-valley"
       />
     </StyledDiv>
     <StyledDiv width="586px">
@@ -125,15 +125,15 @@ export const Content = () => (
         title="Monflanquin, France"
         date="August 2018"
         cover={monflanquinCover}
-        link="monflanquin"
+        link="/journal/monflanquin"
       />
     </StyledDiv>
     <StyledDiv width="586px">
       <Journal
-        title="Bordeux, France"
+        title="Bordeaux, France"
         date="August 2018"
         cover={bordeauxCover}
-        link="bordeaux"
+        link="/journal/bordeaux"
       />
     </StyledDiv>
   </StyledDiv>
