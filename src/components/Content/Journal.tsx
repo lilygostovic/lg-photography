@@ -1,5 +1,5 @@
-import { StyledDiv } from "../common/StyledDiv";
-import { StyledText } from "../common/StyledText";
+import { StyledDiv } from '../common/StyledDiv';
+import { StyledText } from '../common/StyledText';
 
 type JournalProps = {
   title: string;
@@ -12,7 +12,7 @@ export const Journal = ({ title, date, cover, link }: JournalProps) => (
   <StyledDiv m="40px">
     <a href={link} style={{ textDecoration: "none" }}>
       <StyledDiv display="flex" flexDirection="column" alignItems="center">
-        <StyledDiv width="100%" height="400px">
+        <StyledDiv width="100%" height="380px">
           <img
             src={cover}
             alt="cover"
