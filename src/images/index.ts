@@ -2,7 +2,7 @@ export { default as profilePicture } from "./profile-picture.jpg";
 export { default as dijonCover } from "./dijon/cover.jpg";
 export { default as sfCover } from "./san-francisco/cover.jpg";
 export { default as nycCover } from "./new-york-city/cover.jpg";
-// export { default as paris2018Cover } from './paris-2018/cover.jpg';
+export { default as paris2018Cover } from "./paris-2018/cover.jpg";
 export { default as loireValleyCover } from "./loire-valley/cover.jpg";
 export { default as monflanquinCover } from "./monflanquin/cover.jpg";
 export { default as bordeauxCover } from "./bordeaux/cover.jpg";
