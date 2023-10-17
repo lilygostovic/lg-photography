@@ -1,13 +1,15 @@
-import { useParams } from "react-router-dom";
+import journals from '../journals/journals.json';
+import { JournalID } from '../types/id';
+import { StyledDiv } from './common/StyledDiv';
+import { StyledText } from './common/StyledText';
 
-import journals from "../journals/journals.json";
-import { StyledDiv } from "./common/StyledDiv";
-import { StyledText } from "./common/StyledText";
+type JournalPageProps = {
+  id: JournalID;
+}
 
-export const JournalPage = () => {
-  const { id } = useParams();
+export const JournalPage = ({id}: JournalPageProps) => {
+  // const { id } = useParams();
 
-  console.log(journals);
   const journal = journals.find((journal) => journal.id === id);
 
   if (!journal) {
