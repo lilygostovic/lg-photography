@@ -1,6 +1,5 @@
-import { profilePicture } from '../images';
-import { StyledDiv } from './common/StyledDiv';
-import { StyledText } from './common/StyledText';
+import { StyledDiv } from "./common/StyledDiv";
+import { StyledText } from "./common/StyledText";
 
 export const Header = () => (
   <StyledDiv
@@ -11,7 +10,7 @@ export const Header = () => (
     mb="80px"
   >
     <img
-      src={profilePicture}
+      src={require(`../images/profile-picture.jpg`)}
       alt="headshot"
       style={{ height: "90px", borderRadius: "150px" }}
     />
