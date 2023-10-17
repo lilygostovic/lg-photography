@@ -22,7 +22,7 @@ export const Content = () => (
             id={journalID}
             title={journal.title}
             date={journal.date}
-            link={`../../journal/${journalID}`}
+            link={`/journal/${journalID}`}
           />
         </StyledDiv>
       );
