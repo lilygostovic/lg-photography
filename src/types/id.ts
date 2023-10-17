@@ -11,7 +11,7 @@ export type JournalID =
   | "paris-2018"
   | "dijon"
   | "loire-valley"
-  | "monflanqui"
+  | "monflanquin"
   | "bordeaux";
 
 export const journalIDs: Array<JournalID> = [
@@ -27,6 +27,6 @@ export const journalIDs: Array<JournalID> = [
   "paris-2018",
   "dijon",
   "loire-valley",
-  "monflanqui",
+  "monflanquin",
   "bordeaux",
 ];
