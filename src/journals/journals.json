@@ -23,7 +23,7 @@
   },
   {
     "id": "christmas-2022",
-    "title": "Home for Christmas 2",
+    "title": "Home for Christmas",
     "date": "January 2022",
     "camera": "FujiFilm Zoom Date 125s",
     "images": [
@@ -50,45 +50,14 @@
     "camera": "iPhone 12",
     "images": [
       "cover.jpg",
-      "0.jpg",
       "1.jpg",
+      "0.jpg",
       "2.jpg",
       "3.jpg",
-      "4.jpg",
+      "7.jpg",
       "5.jpg",
       "6.jpg",
-      "7.jpg",
-      "8.jpg",
       "9.jpg"
-    ]
-  },
-  {
-    "id": "new-york-city-2022",
-    "title": "New York City",
-    "date": "February 2022",
-    "camera": "FujiFilm Zoom Date 125s",
-    "images": ["cover.jpg"]
-  },
-  {
-    "id": "summer-2021",
-    "title": "Summer 2021",
-    "date": "June 2021",
-    "camera": "FujiFilm Zoom Date 125s",
-    "images": ["cover.jpg", "0.jpg"]
-  },
-  {
-    "id": "christmas-2021",
-    "title": "Home for Christmas",
-    "date": "January 2021",
-    "camera": "FujiFilm Zoom Date 125s",
-    "images": [
-      "cover.jpg",
-      "0003.jpg",
-      "0008.jpg",
-      "0015.jpg",
-      "0016.jpg",
-      "0020.jpg",
-      "0021.jpg"
     ]
   },
   {
@@ -139,20 +108,14 @@
       "11.jpg",
       "12.jpg",
       "13.jpg",
-      "14.jpg",
       "15.jpg",
       "16.jpg",
       "17.jpg",
       "18.jpg",
       "19.jpg",
-      "2.jpg",
       "20.jpg",
       "21.jpg",
-      "3.jpg",
-      "4.jpg",
       "5.jpg",
-      "6.jpg",
-      "7.jpg",
       "8.jpg",
       "9.jpg"
     ]
