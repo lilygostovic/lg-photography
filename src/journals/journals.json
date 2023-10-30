@@ -1,5 +1,12 @@
 [
   {
+    "id": "montreal-fall",
+    "title": "Montreal Fall",
+    "date": "October 2023",
+    "camera": "FujiFilm Zoom Date 125s",
+    "images": ["cover.jpg", "img0.jpg", "img1.jpg", "img2.jpg", "img3.jpg"]
+  },
+  {
     "id": "alberta-2023",
     "title": "Alberta, Canada",
     "date": "August 2023",
