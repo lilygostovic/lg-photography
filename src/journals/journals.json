@@ -29,6 +29,21 @@
     ]
   },
   {
+    "id": "ischia",
+    "title": "Ischia, Italy",
+    "date": "June 2022",
+    "camera": "UO VF 201",
+    "images": [
+      "cover.jpg",
+      "1.jpg",
+      "2.jpg",
+      "3.jpg",
+      "5.jpg",
+      "6.jpg",
+      "7.jpg"
+    ]
+  },
+  {
     "id": "christmas-2022",
     "title": "Home for Christmas",
     "date": "January 2022",
