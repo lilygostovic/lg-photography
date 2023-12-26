@@ -4,7 +4,15 @@
     "title": "Montreal Fall",
     "date": "October 2023",
     "camera": "FujiFilm Zoom Date 125s",
-    "images": ["cover.jpg", "img0.jpg", "img1.jpg", "img2.jpg", "img3.jpg"]
+    "images": [
+      "cover.jpg",
+      "img0.jpg",
+      "img1.jpg",
+      "img2.jpg",
+      "img3.jpg",
+      "img4.jpg",
+      "img5.jpg"
+    ]
   },
   {
     "id": "alberta-2023",
