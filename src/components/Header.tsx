@@ -16,7 +16,7 @@ export const Header = () => (
     />
     <StyledText variant="title">Lily Gostovic</StyledText>
     <StyledText variant="subtitle">
-      FujiFilm Zoom Date 125s | Canon EOS 70D
+      Minolta Riva Zoom 125EX | Olympus OM-D EM-5 III
     </StyledText>
   </StyledDiv>
 );
