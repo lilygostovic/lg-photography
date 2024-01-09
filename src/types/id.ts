@@ -1,4 +1,5 @@
 export type JournalID =
+  | "dolomites"
   | "montreal-fall"
   | "alberta-2023"
   | "ischia"
@@ -14,6 +15,7 @@ export type JournalID =
   | "bordeaux";
 
 export const journalIDs: Array<JournalID> = [
+  "dolomites",
   "montreal-fall",
   "alberta-2023",
   "ischia",
