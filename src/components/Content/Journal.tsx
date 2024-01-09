@@ -1,15 +1,16 @@
-import { JournalID } from '../../types/id';
-import { StyledDiv } from '../common/StyledDiv';
-import { StyledText } from '../common/StyledText';
+import { JournalID } from "../../types/id";
+import { StyledDiv } from "../common/StyledDiv";
+import { StyledText } from "../common/StyledText";
 
 type JournalProps = {
   id: JournalID;
   title: string;
   date: string;
+  camera: string;
   link: string;
 };
 
-export const Journal = ({ title, date, id, link }: JournalProps) => (
+export const Journal = ({ title, date, camera, id, link }: JournalProps) => (
   <StyledDiv m="40px">
     <a href={link} style={{ textDecoration: "none" }}>
       <StyledDiv display="flex" flexDirection="column" alignItems="center">
@@ -23,7 +24,9 @@ export const Journal = ({ title, date, id, link }: JournalProps) => (
           />
         </StyledDiv>
         <StyledText variant="header">{title}</StyledText>
-        <StyledText variant="subHeader">{date}</StyledText>
+        <StyledText variant="subHeader">
+          {date} | {camera}
+        </StyledText>
       </StyledDiv>
     </a>
   </StyledDiv>

@@ -22,6 +22,7 @@ export const Content = () => (
             id={journalID}
             title={journal.title}
             date={journal.date}
+            camera={journal.camera}
             link={`/journal/${journalID}`}
           />
         </StyledDiv>
