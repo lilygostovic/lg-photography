@@ -1,5 +1,25 @@
 [
   {
+    "id": "montreal-w24",
+    "title": "Montreal Winter",
+    "date": "January - April 2024",
+    "camera": "Minolta Riva Zoom 125EX",
+    "images": [
+      "cover.jpg",
+      "1.jpg",
+      "2.jpg",
+      "3.jpg",
+      "4.jpg",
+      "5.jpg",
+      "7.jpg",
+      "8.jpg",
+      "9.jpg",
+      "10.jpg",
+      "11.jpg",
+      "12.jpg"
+    ]
+  },
+  {
     "id": "dolomites",
     "title": "Dolomites, Italy",
     "date": "December 2023 - January 2024",
