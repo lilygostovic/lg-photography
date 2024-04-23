@@ -8,6 +8,7 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<HomePage />} />
+      {/* TODO:: Add photostream page similar to flickr's photostream */}
       <Route path="/journal/:id" element={<JournalPage />} />
     </Routes>
   );
