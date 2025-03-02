@@ -1,4 +1,6 @@
 export type JournalID =
+  | "london-f24"
+  | "hay-river"
   | "bolivar-colombia"
   | "magdalena-colombia"
   | "santander-colombia"
@@ -23,6 +25,8 @@ export type JournalID =
   | "bordeaux";
 
 export const journalIDs: Array<JournalID> = [
+  "london-f24",
+  "hay-river",
   "bolivar-colombia",
   "magdalena-colombia",
   "santander-colombia",
