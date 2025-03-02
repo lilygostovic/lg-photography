@@ -30,7 +30,7 @@ export const JournalPage = () => {
       {journal.images.map((image) => (
         <StyledDiv height="1050px" width="1050px" my="40px">
           <img
-            src={require(`../images/${id}/${image}`)}
+            src={image}
             alt={image}
             height="100%"
             width="100%"
