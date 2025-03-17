@@ -1,9 +1,14 @@
 import { useParams } from "react-router-dom";
 
-import journals from "../journals/journals.json";
-import { StyledDiv } from "./common/StyledDiv";
-import { StyledText } from "./common/StyledText";
+import journals from "../../journals/journals.json";
+import { StyledDiv } from "../common/StyledDiv";
+import { StyledText } from "../common/StyledText";
+import { JournalImage } from "./JournalImage";
 
+/**
+ * The page for a journal. Displays the journal's header and images.
+ * @param id - The id of the journal to display.
+ */
 export const JournalPage = () => {
   const { id } = useParams();
 
@@ -27,16 +32,8 @@ export const JournalPage = () => {
       <StyledText variant="journalSubtitle">
         {journal.date} | {journal.camera}
       </StyledText>
-      {journal.images.map((image) => (
-        <StyledDiv height="1050px" width="1050px" my="40px">
-          <img
-            src={image}
-            alt={image}
-            height="100%"
-            width="100%"
-            style={{ objectFit: "contain" }}
-          />
-        </StyledDiv>
+      {journal.images.map((image, index) => (
+        <JournalImage key={index} image={image} />
       ))}
     </StyledDiv>
   );
