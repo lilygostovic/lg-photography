@@ -18,7 +18,10 @@ export type TextVariant =
   | "header"
   | "subHeader"
   | "journalTitle"
-  | "journalSubtitle";
+  | "journalSubtitle"
+  | "suggestionSectionTitle"
+  | "suggestionTitle"
+  | "suggestionSubtitle";
 
 type StyledTextProps = {
   variant: TextVariant;
@@ -76,6 +79,25 @@ export const StyledText = styled.text<StyledTextProps>`
           margin-bottom: 250px;
           font-weight: bold;
           color: black;
+        `;
+      case "suggestionSectionTitle":
+        return css`
+          font-family: "AppleGothic";
+          font-size: 20px;
+          color: black;
+        `;
+      case "suggestionTitle":
+        return css`
+          font-family: "AppleGothic";
+          font-size: 14px;
+          font-weight: lighter;
+          color: #1c1c1c;
+        `;
+      case "suggestionSubtitle":
+        return css`
+          font-family: "AppleGothic";
+          font-size: 11px;
+          color: #7b7b7b;
         `;
     }
   }}

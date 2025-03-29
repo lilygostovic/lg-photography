@@ -4,6 +4,7 @@ import journals from "../../journals/journals.json";
 import { StyledDiv } from "../common/StyledDiv";
 import { StyledText } from "../common/StyledText";
 import { JournalImage } from "./JournalImage";
+import { JournalSuggestionFooter } from "../JournalSuggestions/JournalSuggestions";
 
 /**
  * The page for a journal. Displays the journal's header and images.
@@ -35,6 +36,7 @@ export const JournalPage = () => {
       {journal.images.map((image, index) => (
         <JournalImage key={index} image={image} />
       ))}
+      <JournalSuggestionFooter currentJournalId={id} />
     </StyledDiv>
   );
 };

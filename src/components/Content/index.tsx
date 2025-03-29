@@ -1,5 +1,5 @@
 import journals from "../../journals/journals.json";
-import { journalIDs } from "../../types/id";
+import { journalIds } from "../../types/id";
 import { StyledDiv } from "../common/StyledDiv";
 import { Journal } from "./Journal";
 
@@ -10,8 +10,8 @@ export const Content = () => (
     flexWrap="wrap"
     justifyContent="center"
   >
-    {journalIDs.map((journalID) => {
-      const journal = journals.find((journal) => journal.id === journalID);
+    {journalIds.map((journalId) => {
+      const journal = journals.find((journal) => journal.id === journalId);
       if (!journal) {
         return <div />;
       }
@@ -19,12 +19,12 @@ export const Content = () => (
       return (
         <StyledDiv width="586px">
           <Journal
-            id={journalID}
+            id={journalId}
             title={journal.title}
             date={journal.date}
             camera={journal.camera}
             cover={journal.cover}
-            link={`/journal/${journalID}`}
+            link={`/journal/${journalId}`}
           />
         </StyledDiv>
       );
