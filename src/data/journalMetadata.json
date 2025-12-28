@@ -1,5 +1,59 @@
 [
   {
+    "id": "london-s25",
+    "title": "London Summer '25",
+    "date": "May - August 2025",
+    "camera": "Minolta Riva Zoom 125EX"
+  },
+  {
+    "id": "canada-s25",
+    "title": "Canada Summer '25",
+    "date": "July 2025",
+    "camera": "Minolta Riva Zoom 125EX"
+  },
+  {
+    "id": "leros-greece",
+    "title": "Leros, Greece",
+    "date": "June 2025",
+    "camera": "Minolta Riva Zoom 125EX"
+  },
+  {
+    "id": "istanbul-turkey",
+    "title": "Istanbul, Turkey",
+    "date": "June 2025",
+    "camera": "Minolta Riva Zoom 125EX"
+  },
+  {
+    "id": "bodrum-turkey",
+    "title": "Bodrum, Turkey",
+    "date": "June 2025",
+    "camera": "Minolta Riva Zoom 125EX"
+  },
+  {
+    "id": "formentera-spain",
+    "title": "Formentera, Spain",
+    "date": "May 2025",
+    "camera": "Minolta Riva Zoom 125EX"
+  },
+  {
+    "id": "alicante-spain",
+    "title": "Alicante, Spain",
+    "date": "May 2025",
+    "camera": "Minolta Riva Zoom 125EX"
+  },
+  {
+    "id": "london-w25",
+    "title": "London Winter '25",
+    "date": "January - April 2025",
+    "camera": "Minolta Riva Zoom 125EX"
+  },
+  {
+    "id": "margate-england",
+    "title": "Margate, England",
+    "date": "April 2025",
+    "camera": "Minolta Riva Zoom 125EX"
+  },
+  {
     "id": "les-trois-vallees",
     "title": "Les Trois Vallées, France",
     "date": "February 2025",

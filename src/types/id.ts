@@ -1,31 +1,13 @@
-export type JournalID =
-  | "les-trois-vallees"
-  | "london-f24"
-  | "hay-river"
-  | "bolivar-colombia"
-  | "magdalena-colombia"
-  | "santander-colombia"
-  | "huila-y-bogota-colombia"
-  | "quindio-colombia"
-  | "antioquia-colombia"
-  | "montreal-w24"
-  | "dolomites-march-24"
-  | "dolomites"
-  | "montreal-fall"
-  | "alberta-2023"
-  | "ischia"
-  | "christmas-2022"
-  | "iceland-2021"
-  | "alberta-2020"
-  | "new-york-city"
-  | "san-francisco"
-  | "paris-2018"
-  | "dijon"
-  | "loire-valley"
-  | "monflanquin"
-  | "bordeaux";
-
-export const journalIds: Array<JournalID> = [
+export const journalIds = [
+  "london-s25",
+  "canada-s25",
+  "leros-greece",
+  "istanbul-turkey",
+  "bodrum-turkey",
+  "formentera-spain",
+  "alicante-spain",
+  "london-w25",
+  "margate-england",
   "les-trois-vallees",
   "london-f24",
   "hay-river",
@@ -51,4 +33,6 @@ export const journalIds: Array<JournalID> = [
   "loire-valley",
   "monflanquin",
   "bordeaux",
-];
+] as const;
+
+export type JournalID = typeof journalIds[number];
