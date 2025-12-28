@@ -1,0 +1,1 @@
+export { getImagesForJournal } from './getImagesForJournal';

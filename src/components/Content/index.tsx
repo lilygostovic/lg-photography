@@ -1,6 +1,7 @@
-import journals from "../../journals/journals.json";
+import journalMetadata from "../../data/journalMetadata.json";
 import { journalIds } from "../../types/id";
 import { StyledDiv } from "../common/StyledDiv";
+import { getImagesForJournal } from "../utils";
 import { Journal } from "./Journal";
 
 export const Content = () => (
@@ -11,8 +12,14 @@ export const Content = () => (
     justifyContent="center"
   >
     {journalIds.map((journalId) => {
-      const journal = journals.find((journal) => journal.id === journalId);
-      if (!journal) {
+      const metadata = journalMetadata.find(
+        (journal) => journal.id === journalId
+      );
+
+      const images = getImagesForJournal(journalId);
+      const coverImage = images.find((image) => image.includes("cover"));
+
+      if (!metadata || !coverImage) {
         return <div />;
       }
 
@@ -20,10 +27,10 @@ export const Content = () => (
         <StyledDiv width="586px">
           <Journal
             id={journalId}
-            title={journal.title}
-            date={journal.date}
-            camera={journal.camera}
-            cover={journal.cover}
+            title={metadata.title}
+            date={metadata.date}
+            camera={metadata.camera}
+            cover={coverImage}
             link={`/journal/${journalId}`}
           />
         </StyledDiv>

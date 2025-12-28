@@ -27,7 +27,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "compress-images": "tsx src/scripts/compress.ts"
   },
   "eslintConfig": {
     "extends": [
@@ -49,6 +50,8 @@
   },
   "devDependencies": {
     "@babel/plugin-transform-private-property-in-object": "^7.24.7",
-    "@types/webpack-env": "^1.18.2"
+    "@types/webpack-env": "^1.18.2",
+    "sharp": "^0.34.5",
+    "tsx": "^4.21.0"
   }
 }

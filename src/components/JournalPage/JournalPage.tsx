@@ -1,10 +1,11 @@
 import { useParams } from "react-router-dom";
 
-import journals from "../../journals/journals.json";
+import journalMetadata from "../../data/journalMetadata.json";
 import { StyledDiv } from "../common/StyledDiv";
 import { StyledText } from "../common/StyledText";
-import { JournalImage } from "./JournalImage";
 import { JournalSuggestionFooter } from "../JournalSuggestions/JournalSuggestions";
+import { getImagesForJournal } from "../utils";
+import { JournalImage } from "./JournalImage";
 
 /**
  * The page for a journal. Displays the journal's header and images.
@@ -13,9 +14,10 @@ import { JournalSuggestionFooter } from "../JournalSuggestions/JournalSuggestion
 export const JournalPage = () => {
   const { id } = useParams();
 
-  const journal = journals.find((journal) => journal.id === id);
+  const metadata = journalMetadata.find((journal) => journal.id === id);
+  const images = getImagesForJournal(id);
 
-  if (!journal) {
+  if (!metadata || images.length === 0) {
     return <div>Not Found...</div>;
   }
 
@@ -29,11 +31,11 @@ export const JournalPage = () => {
       <a href="/" style={{ textDecoration: "none" }}>
         <StyledText variant="subtitle">Lily Gostovic — Journal</StyledText>
       </a>
-      <StyledText variant="journalTitle">{journal.title}</StyledText>
+      <StyledText variant="journalTitle">{metadata.title}</StyledText>
       <StyledText variant="journalSubtitle">
-        {journal.date} | {journal.camera}
+        {metadata.date} | {metadata.camera}
       </StyledText>
-      {journal.images.map((image, index) => (
+      {images.map((image, index) => (
         <JournalImage key={index} image={image} />
       ))}
       <JournalSuggestionFooter currentJournalId={id} />
