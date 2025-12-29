@@ -1,7 +1,6 @@
-import journalMetadata from "../../data/journalMetadata.json";
-import { journalIds } from "../../types/id";
-import { StyledDiv } from "../common/StyledDiv";
-import { StyledText } from "../common/StyledText";
+import { StyledDiv, StyledText } from "../../../components";
+import journalMetadata from "../../../data/journalMetadata.json";
+import { journalIds } from "../../../data/journalIds";
 
 type JournalSuggestionsProps = {
   currentJournalId?: string;

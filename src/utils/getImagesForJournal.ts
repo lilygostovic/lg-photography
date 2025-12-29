@@ -1,6 +1,6 @@
 // Import all images from the images directory
 const imageContext = require.context(
-  "../../images",
+  "../images",
   true,
   /\.(jpg|jpeg|png|gif|webp)$/i
 );

@@ -1,6 +1,5 @@
-import { JournalID } from "../../types/id";
-import { StyledDiv } from "../common/StyledDiv";
-import { StyledText } from "../common/StyledText";
+import { StyledDiv, StyledText } from "../../../../../components";
+import { JournalID } from "../../../../../data/journalIds";
 
 type JournalProps = {
   id: JournalID;

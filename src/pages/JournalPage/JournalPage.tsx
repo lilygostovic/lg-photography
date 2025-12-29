@@ -1,11 +1,9 @@
 import { useParams } from "react-router-dom";
 
+import { StyledDiv, StyledText } from "../../components";
 import journalMetadata from "../../data/journalMetadata.json";
-import { StyledDiv } from "../common/StyledDiv";
-import { StyledText } from "../common/StyledText";
-import { JournalSuggestionFooter } from "../JournalSuggestions/JournalSuggestions";
-import { getImagesForJournal } from "../utils";
-import { JournalImage } from "./JournalImage";
+import { getImagesForJournal } from "../../utils";
+import { JournalImage, JournalSuggestionFooter } from "./components";
 
 /**
  * The page for a journal. Displays the journal's header and images.

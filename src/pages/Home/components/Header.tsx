@@ -1,7 +1,8 @@
 import { useEffect, useState } from "react";
-import { StyledDiv } from "./common/StyledDiv";
-import { StyledText } from "./common/StyledText";
+
 import Skeleton from "react-loading-skeleton";
+
+import { StyledDiv, StyledText } from "../../../components";
 
 /** The URI of the headshot image. */
 const HEADSHOT_URI =
@@ -21,7 +22,7 @@ export const Header = () => {
       setIsLoaded(true);
     };
   }, []);
-  
+
   return (
     <StyledDiv
       display="flex"
@@ -34,10 +35,17 @@ export const Header = () => {
         <img
           src={HEADSHOT_URI}
           alt="headshot"
-          style={{ height: HEADSHOT_DIAMETER, borderRadius: HEADSHOT_BORDER_RADIUS }}
+          style={{
+            height: HEADSHOT_DIAMETER,
+            borderRadius: HEADSHOT_BORDER_RADIUS,
+          }}
         />
-      ): (
-        <Skeleton height={HEADSHOT_DIAMETER} width={HEADSHOT_DIAMETER} borderRadius={HEADSHOT_BORDER_RADIUS} />
+      ) : (
+        <Skeleton
+          height={HEADSHOT_DIAMETER}
+          width={HEADSHOT_DIAMETER}
+          borderRadius={HEADSHOT_BORDER_RADIUS}
+        />
       )}
       <StyledText variant="title">Lily Gostovic</StyledText>
       <StyledText variant="subtitle">

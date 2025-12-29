@@ -1,7 +1,10 @@
+import "react-loading-skeleton/dist/skeleton.css";
+
 import { useEffect, useRef, useState } from "react";
-import { StyledDiv } from "../common/StyledDiv";
-import 'react-loading-skeleton/dist/skeleton.css'
+
 import Skeleton from "react-loading-skeleton";
+
+import { StyledDiv } from "../../../components";
 
 /** The maximum width of a journal image. */
 const IMAGE_WIDTH = 850;
@@ -17,7 +20,10 @@ const LOADING_IMAGE_HEIGHT = 550;
  * @param image - The image to display.
  */
 export const JournalImage = ({ image }: { image: string }) => {
-  const [dimensions, setDimensions] = useState({ width: LOADING_IMAGE_WIDTH, height: LOADING_IMAGE_HEIGHT });
+  const [dimensions, setDimensions] = useState({
+    width: LOADING_IMAGE_WIDTH,
+    height: LOADING_IMAGE_HEIGHT,
+  });
   const imgRef = useRef(null);
   const [isLoaded, setIsLoaded] = useState(false);
 
@@ -39,9 +45,9 @@ export const JournalImage = ({ image }: { image: string }) => {
   }, [image]);
 
   return (
-    <StyledDiv 
+    <StyledDiv
       width={`${dimensions.width}px`}
-      height={`${dimensions.height}px`} 
+      height={`${dimensions.height}px`}
       my={IMAGE_MARGIN_BOTTOM}
     >
       {isLoaded ? (
@@ -54,7 +60,11 @@ export const JournalImage = ({ image }: { image: string }) => {
           style={{ objectFit: "contain" }}
         />
       ) : (
-          <Skeleton count={1} height={`${dimensions.height}px`} width={`${dimensions.width}px`} />
+        <Skeleton
+          count={1}
+          height={`${dimensions.height}px`}
+          width={`${dimensions.width}px`}
+        />
       )}
     </StyledDiv>
   );

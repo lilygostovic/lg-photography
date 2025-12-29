@@ -1,10 +1,10 @@
-import journalMetadata from "../../data/journalMetadata.json";
-import { journalIds } from "../../types/id";
-import { StyledDiv } from "../common/StyledDiv";
-import { getImagesForJournal } from "../utils";
-import { Journal } from "./Journal";
+import { StyledDiv } from "../../../../components";
+import journalMetadata from "../../../../data/journalMetadata.json";
+import { journalIds } from "../../../../data/journalIds";
+import { getImagesForJournal } from "../../../../utils";
+import { Journal } from "./components";
 
-export const Content = () => (
+export const Journals = () => (
   <StyledDiv
     display="flex"
     flexDirection="row"
