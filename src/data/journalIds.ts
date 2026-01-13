@@ -1,4 +1,6 @@
 export const journalIds = [
+  "christmas-2025",
+  "holidays-in-london-25",
   "london-s25",
   "canada-s25",
   "leros-greece",
