@@ -1,4 +1,7 @@
 export const journalIds = [
+  "mexico-playa-del-carmen",
+  "mexico-tulum",
+  "mexico-valladolid",
   "christmas-2025",
   "holidays-in-london-25",
   "london-s25",

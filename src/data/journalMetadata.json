@@ -1,5 +1,23 @@
 [
   {
+    "id": "mexico-playa-del-carmen",
+    "title": "Playa del Carmen, Mexico",
+    "date": "January 2026",
+    "camera": "Minolta Riva Zoom 125EX"
+  },
+  {
+    "id": "mexico-tulum",
+    "title": "Tulum, Mexico",
+    "date": "December 2025 - January 2026",
+    "camera": "Minolta Riva Zoom 125EX"
+  },
+  {
+    "id": "mexico-valladolid",
+    "title": "Valladolid, Mexico",
+    "date": "December 2025",
+    "camera": "Minolta Riva Zoom 125EX"
+  },
+  {
     "id": "christmas-2025",
     "title": "Home for the holidays",
     "date": "December 2025",
